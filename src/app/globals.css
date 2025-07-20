@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full p-3 border border-purple-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-purple-400;
+}
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+:root {
+  --color-purple-50: oklch(95.57% 0.019 213.34);
+  --color-purple-100: oklch(91.1% 0.039 214.5);
+  --color-purple-200: oklch(82.89% 0.068 213.92);
+  --color-purple-300: oklch(74.43% 0.062 212.21);
+  --color-purple-400: oklch(66.51% 0.055 213.21);
+  --color-purple-500: oklch(57.3% 0.047 212.86);
+  --color-purple-600: oklch(48.76% 0.04 212.3);
+  --color-purple-700: oklch(40.17% 0.033 213.66);
+  --color-purple-800: oklch(31.76% 0.027 211.45);
+  --color-purple-900: oklch(22.09% 0.018 215);
+  --color-purple-950: oklch(17.42% 0.014 212.98);
+}
